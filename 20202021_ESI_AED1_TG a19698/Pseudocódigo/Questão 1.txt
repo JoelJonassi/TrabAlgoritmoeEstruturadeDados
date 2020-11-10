@@ -1,0 +1,54 @@
+/*Algoritmo: "ler um preço e ecrever o novo preço mediante uma promoção de 30%"
+*Autor: Joel Jonassi
+*Data: 30/10/2020
+Funcionalidade: Decidir se um aluno está aprovado ou reprovado
+*/
+
+paquete <- inteiro
+mediaPaq <- inteiro
+ref <-inteiro
+horasTrab <- real
+soma<-0
+
+Inicio
+
+Calcular o número de refeições
+
+escrever (introduza o numero do paquete)
+ler(paquete)
+escrever (As horas de trabalho)
+ler(horasTrab)
+
+se (paquete == 1)
+escrever (introduza o numero de refeicoes:)
+ler(ref)
+mediaPaq = ref/horasTrab
+escrever ( a media das refeicoes do paquetex: mediapaq)
+soma <- soma + ref
+
+se (paquete == 2)
+escrever (introduza o numero de refeicoes:)
+ler(ref)
+mediaPaq = ref/horasTrab
+escrever ( a media das refeicoes do paquetex: mediapaq)
+
+se (paquete == 3)
+escrever (introduza o numero de refeicoes:)
+ler(ref)
+mediaPaq = ref/horasTrab
+escrever ( a media das refeicoes do paquetex: mediapaq)
+    
+se (paquete == 4)
+escrever (introduza o numero de refeicoes:)
+ler(ref)
+mediaPaq = ref/horasTrab
+escrever ( a media das refeicoes do paquetex: mediapaq)
+
+se (paquete == 5)
+escrever (introduza o numero de refeicoes:)
+ler(ref)
+mediaPaq = ref/horasTrab
+escrever ( a media das refeicoes do paquetex: mediapaq)
+
+
+  

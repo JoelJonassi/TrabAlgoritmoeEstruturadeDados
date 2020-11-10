@@ -1,0 +1,18 @@
+/*Algoritmo: "Ano bisexto"
+*Autor: Joel Jonassi
+*Data: 30/10/2020
+Funcionalidade: escrever ano bisexto
+*/
+
+Variaveis
+
+ano : Inteiro
+
+
+ler (ano)
+
+se (ano % 4 && %400)
+escreve ano bissexto
+
+se ano (%4 && %100)
+escreve ano não bissexto

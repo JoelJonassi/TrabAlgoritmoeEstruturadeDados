@@ -1,0 +1,24 @@
+/*Algoritmo: "desconto nas vacinas para gatos mediante o seu comprimento"
+*Autor: Joel Jonassi
+*Data: 30/10/2020
+Funcionalidade: Atribuir descontos
+*/
+variaveis
+gatoTamanho <- inteiro
+
+decisões
+
+se (gatoTamanho>=6 && gatoTipo1<25)
+
+    se (gatoTamanho>=6 && gatoTamanho<10)
+    escrever( Desconto de 10%)
+
+    se (gatoTamanho>=10 && gatoTamnho<15)
+    escrever( Desconto de 9%)
+
+    se (gatoTamanho>=15 && gatoTamanho<18)
+    escrever( Desconto de 8%)
+
+    se (gatoTamanho>=18 && gatoTamanho<25)
+    escrever( Desconto de 7%)
+se não escrever(desconto de 5%)

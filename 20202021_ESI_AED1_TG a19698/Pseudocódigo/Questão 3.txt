@@ -1,0 +1,25 @@
+/*Algoritmo: "ler um preço e ecrever o novo preço mediante uma promoção de 30%"
+*Autor: Joel Jonassi
+*Data: 30/10/2020
+Funcionalidade: Decidir se um aluno está aprovado ou reprovado
+*/
+Variaveis
+
+notaMatematica, notaIngles, notaGeografia, notaPortugues, media <- Real
+percentagemNota <- 4.0f
+
+Inicio
+
+Calcular media
+media <- (notaMatematica+notaIngles+notaGeografia+notaPortugues)/percentagemNota
+
+se (media>=0 && media<=20)
+        se  (media >= 0 && media<=9.50) 
+        então
+        escreva (Reprovado)
+        se não 
+        escreva (aprovado)
+se não
+escreva(introduza os valores de 0 a 20)
+
+Fim_Algoritmo
