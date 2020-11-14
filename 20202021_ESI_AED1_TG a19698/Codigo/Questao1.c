@@ -9,30 +9,24 @@
  * @copyright Copyright (c) 2020
  */
  
-  int paquete;
+  char paquete;
   int mediaPaq;
-  int ref, horasTrab;
+  int ref;
   int soma=0;
 
 int main(){
 
 printf("Introduza o numero do paquete: ");
 scanf ("%d", &paquete);
-printf("introduza as horas de trabalho: ");
-scanf("%d", &horasTrab);
 
-  if (paquete>=1 && paquete<=5)
-  { 
-      if (paquete==1)
-        {     
+switch (paquete){
+  case'c':
           printf("introduza o numero de refeicoes: ");
           scanf ("%d", &ref);
-          mediaPaq = ref/horasTrab;
+          mediaPaq = ref/5;
           printf("A media das refeicoes do paquete%d : %d refeicoes por hora", paquete, mediaPaq);
-          if (ref>4){
-            soma += ref; 
-            printf("%d",soma);
-            }
+          break
+          
         }
       if (paquete==2)
         {
@@ -40,9 +34,7 @@ scanf("%d", &horasTrab);
           scanf ("%d", &ref);
           mediaPaq = ref/horasTrab;
           printf("A media das refeicoes do paquete%d : %d refeicoes por hora", paquete, mediaPaq);
-          if (ref>4){
-            soma+=ref ;
-            printf("%d",soma);
+          
         }
         }
       
@@ -71,4 +63,23 @@ scanf("%d", &horasTrab);
   }
   else printf("introduza o numero correcto do paquete de 1 a 5"); 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+#pragma
+
+if soma (int a>4){
+
+    soma += a;
+}
+#pragma endregion
 
